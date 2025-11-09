@@ -1,71 +1,60 @@
+
 # Advanced-Command-Prompt
 Advanced Command Prompt For Windows System
 
 ## License
 MIT
 
-## Features
-### Original Command Prompt:
-- cmd                       - Switch to original Command Prompt
+## ARCHITECTURAL OVERVIEW
+This is a hyper-advanced hybrid command processor with enterprise-grade capabilities. The code represents a modular, extensible framework combining system administration, cryptographic operations, network diagnostics, and hardware intelligence.
 
-### DISK OPERATIONS:
-- scan <drive> [-detail]    - Comprehensive disk health scan
-- scan <drive> [-repair]    - Attempt disk error repair
-- defrag <drive>            - Analyze defragmentation
-- repair <drive>            - Repair disk errors
-- dd <source> <dest>        - Clone disk/partition
-- format <device>           - Low-level format (simulated)
 
-### FILE OPERATIONS:
-- ls, dir [path] [-l]       - List directory (use -l for verbose)
-- find <pattern> [path]     - Find files
-- grep <pattern> [path]     - Search text in files
-- chmod <mode> <file>       - Change permissions
+## CORE COMPONENTS BREAKDOWN
 
-### PROCESS MANAGEMENT:
-- ps                        - List processes
-- kill <pid>                - Kill process
-- cpu [set <cores>]         - CPU core management
+#### UNIVERSAL COMMAND PARSER SYSTEM
+- WindowsPathParser: Advanced Windows path normalization with UNC support
+- UniversalCommandParser: Cross-platform command parsing with quoted string handling
+- Intelligent path resolution with drive letter detection and absolute/relative path conversion
 
-### NETWORK TOOLS:
-- ping <host>               - Ping host
-- wget <url> [output]       - Download file
-- whois <domain>            - WHOIS lookup
-- tracert <host>            - Traceroute
-- http <method> <url> [data] - HTTP requests
+#### INTERNET SPEED TESTING ENGINE
+- Multi-server fallback system with global test endpoints
+- Comprehensive metrics: Download/upload speeds, latency, packet loss, jitter
+- Connection quality assessment with DNS verification and IP detection
+- Real-time progress visualization during speed tests
+- Intelligent server selection based on latency metrics
 
-### MEDIA TOOLS:
-- qrcode <data> [output]    - Generate QR code
-- readqr <image>            - Read QR code
-- convert <in> <out> [w] [h] - Convert/resize image
+#### CRYPTOGRAPHIC HASH SYSTEM
+- 12+ hash algorithms including SHA-256, SHA-512, SHA3, BLAKE2
+- Dual-hash computation (SHA1+MD5) for legacy verification
+- Performance benchmarking with speed comparisons
+- File integrity verification with hash matching
+- Progress tracking for large files
 
-### SYSTEM TOOLS:
-- calc <expression>         - Calculator
-- run <batch_file>          - Run batch file
-- basic <basic_file>        - Run BASIC script
-- cleartemp                 - Clean temp files
-- clearhist                 - Clear command history
-- clearbin                  - Clear recycle bin
+#### UNIT CONVERSION FRAMEWORK
+- 11 measurement categories: Length, area, volume, mass, time, temperature, speed, pressure, energy, data storage, angles
+- Intelligent category detection between units
+- Batch conversion to multiple units simultaneously
+- Temperature scale conversion with special handling
 
-### OTHER:
-- cd [path]                 - Change directory
-- pwd                       - Print working directory
-- exit                      - Exit terminal
-- help                      - This help message
+#### DEVICE INTELLIGENCE CORE
+- Hardware fingerprinting with CPU, GPU, memory, storage analysis
+- Real-time sensor monitoring: temperatures, fan speeds, voltages
+- Performance metrics collection and visualization
+- Cross-platform hardware detection (Windows/Linux/macOS)
 
-### ENHANCED SCANDISK FEATURES:
-- Disk space analysis
-- Health status monitoring
-- Bad sector detection
-- File system integrity
-- Performance metrics
-- Error detection & repair
-- SMART data simulation
+#### ADVANCED STORAGE OPERATIONS
+- Real disk scanning with file system analysis
+- Low-level formatting with multiple wipe patterns (zero, random, secure)
+- Secure erase methods from quick to military-grade
+- Disk cloning with progress tracking
+- File system repair and defragmentation analysis
 
-#### Example:
-- scan C: -detail          - Detailed disk analysis
-- scan D: -repair          - Repair disk errors
-- defrag C:                - Defragmentation analysis
+#### NETWORK OPERATIONS SUITE
+- Enhanced WHOIS with multiple query methods (system command, TCP, HTTP APIs)
+- Traceroute with real-time output
+- HTTP client supporting multiple methods
+- File downloading with progress bars
+
 
 ## Support
 If you like this development, you can donate a little help to the :
